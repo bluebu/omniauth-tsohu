@@ -4,7 +4,7 @@ require 'multi_json'
 module OmniAuth
   module Strategies
     class Tsohu < OmniAuth::Strategies::OAuth
-      option :name, 'tqq'
+      option :name, 'tsohu'
       option :sign_in, true
       def initialize(*args)
         super
