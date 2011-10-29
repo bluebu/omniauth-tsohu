@@ -3,7 +3,7 @@ require 'multi_json'
 
 module OmniAuth
   module Strategies
-    class Tqq < OmniAuth::Strategies::OAuth
+    class Tsohu < OmniAuth::Strategies::OAuth
       option :name, 'tqq'
       option :sign_in, true
       def initialize(*args)
