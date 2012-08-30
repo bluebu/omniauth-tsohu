@@ -23,12 +23,12 @@ module OmniAuth
         consumer
       end
 
-      uid { access_token.params[:id] }
+      uid { raw_info["id"] }
 
       info do
         {
           :nickname => raw_info['screen_name'],
-          :name => raw_info['name'],
+          :name => raw_info['screen_name'],
           :location => raw_info['location'],
           :image => raw_info['profile_image_url'],
           :description => raw_info['description'],
