@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.description = %q{an omniauth strategy for sohu weibo}
 
   s.rubyforge_project = "omniauth-tsohu"
-  s.add_dependency 'omniauth', '~> 1.0.0.rc2'
-  s.add_dependency 'omniauth-oauth', '~> 1.0.0.rc2'
+  s.add_dependency 'omniauth', '~> 1.0'
+  s.add_dependency 'omniauth-oauth', '~> 1.0'
   s.add_dependency 'multi_json'
 
   s.files         = `git ls-files`.split("\n")
